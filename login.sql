@@ -4,5 +4,3 @@ CREATE TABLE order_booking.login_table (
   `access_level` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`user_id`)
 );
-INSERT INTO `order_booking`.`order_table` (`order_id`, `User_name`, `Stock_name`, `Order_quantity`, `Price`, `Order_date`)
-VALUES ('101', 'rohan', 'DBS', '50', '150', '29 jan 2021');
